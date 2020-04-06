@@ -1,1 +1,4 @@
-<p>crib-list works!</p>
+<div *ngFor="let crib of cribs">
+  <p>{{ crib.id }}</p>
+  <span>{{ crib.type }}</span>
+</div>
