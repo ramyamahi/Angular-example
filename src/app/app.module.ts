@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CribListComponent } from './crib-list/crib-list.component';
+import { ComponentSampleComponent } from './component-sample/component-sample.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CribListComponent,
+    ComponentSampleComponent
   ],
   imports: [
     BrowserModule,
