@@ -1,4 +1,3 @@
 <div *ngFor="let crib of cribs">
-  <p>{{ crib.id }}</p>
-  <span>{{ crib.type }}</span>
+  <app-crib-card [crib]="crib"></app-crib-card>
 </div>
